@@ -1,0 +1,7 @@
+{
+  "name": "File-SupaBase",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
