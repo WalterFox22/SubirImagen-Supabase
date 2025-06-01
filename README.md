@@ -10,25 +10,15 @@ Esta aplicación permite a los usuarios autenticados subir archivos a un bucket 
 
 
 
-## Instalación
+## Configuración
 
-1. **Clona el repositorio y entra en la carpeta:**
-   ```bash
-   git clone <URL_DEL_REPO>
-   cd File-SupaBase
-   ```
 
-2. **Instala las dependencias:**
-   ```bash
-   npm install
-   ```
-
-3. **Configura Supabase:**
+1. **Configura Supabase:**
    - Crea un proyecto en [Supabase](https://app.supabase.com/).
    - Ve a la sección "Storage" y crea un bucket (puedes colocar el nombre que prefieras, recuerda usar ese nombre en el código).
    - Ve a "Project Settings" > "API" y copia la URL y la API Key (anon/public).
 
-4. **Configura las credenciales en el proyecto:**
+2. **Configura las credenciales en el proyecto:**
    - Abre el archivo de configuración de Supabase en el proyecto.
    - Coloca tu URL y Key:
      ```ts
@@ -36,7 +26,7 @@ Esta aplicación permite a los usuarios autenticados subir archivos a un bucket 
      const supabaseKey = 'TU_SUPABASE_ANON_KEY';
      ```
 
-5. **Configura las reglas del bucket en Supabase:**
+3. **Configura las reglas del bucket en Supabase:**
    - Ve a "Storage" > tu bucket > "Policies".
    - Crea una política para permitir que los usuarios autenticados suban archivos solo a su carpeta privada:
      ```sql
