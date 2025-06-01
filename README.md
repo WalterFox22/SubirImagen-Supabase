@@ -54,10 +54,7 @@ Esta aplicación permite a los usuarios autenticados subir archivos a un bucket 
 ## Uso
 
 1. **Inicia la app en modo desarrollo:**
-   ```bash
-   npm start
-   ```
-   o
+   
    ```bash
    ionic serve
    ```
