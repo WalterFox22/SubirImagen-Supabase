@@ -1,6 +1,8 @@
 # File-SupaBase
 
-Proyecto de ejemplo para subir archivos a Supabase Storage. Creado por Walter Cobacango.
+Proyecto de ejemplo para subir archivos a Supabase Storage. 
+
+Creado por **Walter Cobacango**.
 
 ## Descripción
 
