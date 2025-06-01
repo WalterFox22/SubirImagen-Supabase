@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Subir Archivo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div *ngIf="userEmail; else noAuth">
+    <p>Bienvenido: {{ userEmail }}</p>
+    <input type="file" (change)="onFileSelected($event)" />
+    <p *ngIf="mensaje">{{ mensaje }}</p>
+  </div>
+  <ng-template #noAuth>
+    <p>Debes iniciar sesión para subir archivos.</p>
+    <ion-button routerLink="/auth">Ir a Login</ion-button>
+  </ng-template>
+</ion-content>
