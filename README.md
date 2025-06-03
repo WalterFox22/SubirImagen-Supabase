@@ -2,7 +2,7 @@
 
 Proyecto de ejemplo para subir archivos a Supabase Storage. 
 
-Creado por **Walter Cobacango**.
+Creado por **Walter Cobacango, Adrian Cadena**.
 
 ## Descripción
 
